@@ -1,0 +1,189 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Poppins&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;       
+}
+
+body {
+    background-color: rgb(254, 253, 205);
+    
+}
+
+
+/* FOR NAV BAR */
+header {
+    background-color: #ffff00;
+ 
+}
+
+.name {
+    margin-left: 200px;
+    letter-spacing: 8px;
+    font-family: 'Lobster', cursive;
+}
+
+.nav_list {
+    float: right;
+    margin-top: -23px;
+    margin-right: 200px;
+}
+
+li {
+    display: inline-block;
+    font-family: 'Lobster', cursive;   
+}
+
+#firstli {
+    font-size: 20px;
+    color: black;
+}
+
+#firstli:hover {
+    color: rgb(72, 73, 75);
+    font-size: large;
+}
+
+#secondli {
+    margin-left: 30px; 
+    font-size: 20px;
+    color: black;
+}
+
+#secondli:hover {
+    color: rgb(72, 73, 75);
+    font-size: large;
+}
+
+#thirdli {
+    margin-left: 30px;
+    font-size: 20px;
+    color: black;
+}
+
+#thirdli:hover {
+    color: rgb(72, 73, 75);
+    font-size: large;
+}
+
+
+/* FOR IMAGE */
+.solo {
+    width: 230px; 
+    height: 245px; 
+    margin-top: 200px;  
+    margin-left: 500px;
+    border-radius: 50%;
+}
+
+.solo:hover {
+    width: 250px; 
+    height: 265px;
+}
+
+/* FOR VERTICAL LINE */
+.vertical {
+    border-left: 3px solid rgb(135, 136, 128); 
+    height: 300px;
+    margin-top: -270px;  
+    margin-left: 780px; 
+}
+
+
+/* FOR HEADINGS (SIDE NAMES) */
+#h2 {
+    margin-top: -250px;  
+    margin-left: 830px;
+    font-family: 'Lobster', cursive;
+    letter-spacing: 2px;
+}
+
+#h3 {  
+    margin-left: 830px;
+    font-family: 'Lobster', cursive;
+    letter-spacing: 2px;
+}
+
+
+/* FOR DOWN-ARROW */
+.down_arrow {
+    width: 40px;
+    height: 40px;
+    margin-top: 100px;  
+    margin-left: 382px ;
+}
+
+.down_arrow:hover {
+    width: 44px;
+    height: 44px;
+    margin-top: 105px;
+    
+}
+
+/*MEDIA QUERIE FOR HOME */
+
+@media screen and (max-width: 480px) {
+
+    .name {
+        margin-left: 20px;
+        letter-spacing: 3px;
+        font-family: 'Lobster', cursive;
+        font-size: 20px;
+    }
+
+    .nav_list {
+        display: none;
+    }
+
+    li {
+        display: none;   
+    }
+
+    .solo {
+        width: 100px; 
+        height: 94px; 
+        margin-top: 80px;  
+        margin-left: 45px;
+        border-radius: 50%;
+    }
+    
+    .vertical {
+        border-left: 3px solid rgb(135, 136, 128); 
+        height: 130px;
+        margin-top: -115px;  
+        margin-left: 170px; 
+    }
+
+    #h2 {
+        margin-top: -90px;  
+        margin-left: 200px;
+        font-family: 'Lobster', cursive;
+        letter-spacing: 2px;
+        font-size: large;
+    }
+    
+    #h3 {  
+        margin-top: 100px;
+        margin-left: 70px;
+        font-family: 'Lobster', cursive;
+        letter-spacing: 2px;
+    }
+
+    .down_arrow {
+        width: 20px;
+        height: 20px;
+        margin-top: 25px;  
+        margin-left: 80px ;
+    }
+
+    .down_arrow:hover {
+        width: 22px;
+        height: 22px;
+        margin-top: 95px;
+        
+    }
+
+  }
+
+
+    
