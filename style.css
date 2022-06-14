@@ -1,0 +1,571 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;       
+}
+
+body {
+    background-color: rgb(254, 253, 205);
+    
+}
+
+
+/* FOR NAV BAR */
+header {
+    background-color: #ffff00;
+    
+ 
+}
+
+.welcome {
+    margin-left: -35px;
+    margin-top: -70px;
+}
+
+
+.name {
+    margin-left: 200px;
+    letter-spacing: 8px;
+    font-family: 'Lobster', cursive;
+}
+
+.nav_list {
+    float: right;
+    margin-top: -23px;
+    margin-right: 200px;
+}
+
+li {
+    display: inline-block;
+    font-family: 'Lobster', cursive;   
+}
+
+#firstli {
+    font-size: 20px;
+    color: black;
+    transition: transform .2s; /* Animation */
+}
+
+#firstli:hover {
+    text-shadow: 0 0 3px #f23b3b, 0 0 5px #0000FF;
+    transform: scale(1.2);
+    
+}
+
+#secondli {
+    margin-left: 30px; 
+    font-size: 20px;
+    color: black;
+    transition: transform .2s; /* Animation */
+}
+
+#secondli:hover {
+    text-shadow: 0 0 3px #f23b3b, 0 0 5px #0000FF;
+    transform: scale(1.2);
+}
+
+#thirdli {
+    margin-left: 30px;
+    font-size: 20px;
+    color: black;
+    transition: transform .2s; /* Animation */
+}
+
+#thirdli:hover {
+    text-shadow: 0 0 3px #f23b3b, 0 0 5px #0000FF;
+    transform: scale(1.2);
+}
+
+
+/* FOR IMAGE */
+.solo {
+    width: 230px; 
+    height: 245px; 
+    margin-top: 200px;  
+    margin-left: 500px;
+    border-radius: 50%;
+}
+
+.solo:hover {
+    
+    box-shadow: -5px -5px 30px 5px red, 5px 5px 30px 5px blue; 
+}
+
+/* FOR VERTICAL LINE */
+.vertical {
+    border-left: 3px solid rgb(135, 136, 128); 
+    height: 300px;
+    margin-top: -270px;  
+    margin-left: 780px; 
+}
+
+
+/* FOR HEADINGS (SIDE NAMES) */
+#h2 {
+    margin-top: -250px;  
+    margin-left: 830px;
+    font-family: 'Lobster', cursive;
+    letter-spacing: 2px;
+}
+
+#h3 {  
+    margin-left: 830px;
+    font-family: 'Lobster', cursive;
+    letter-spacing: 2px;
+}
+
+
+/* FOR DOWN-ARROW */
+.down_arrow {
+    width: 40px;
+    height: 40px;
+    margin-top: 100px;  
+    margin-left: 382px;
+    
+}
+
+.down_arrow:hover {
+    width: 44px;
+    height: 44px;
+    margin-top: 105px;
+    
+}
+
+/*MEDIA QUERIE FOR HOME */
+
+@media screen and (max-width: 480px) {
+
+    .name {
+        margin-left: 20px;
+        letter-spacing: 3px;
+        font-family: 'Lobster', cursive;
+        font-size: 20px;
+    }
+
+    .nav_list {
+        display: none;
+    }
+
+    li {
+        display: none;   
+    }
+
+    .welcome {
+        margin-left: 0px;
+        margin-top: 20px;
+    }
+
+    .solo {
+        width: 100px; 
+        height: 94px; 
+        margin-top: 80px;  
+        margin-left: 45px;
+        border-radius: 50%;
+    }
+    
+    .vertical {
+        border-left: 3px solid rgb(135, 136, 128); 
+        height: 130px;
+        margin-top: -115px;  
+        margin-left: 170px; 
+    }
+
+    #h2 {
+        margin-top: -90px;  
+        margin-left: 200px;
+        font-family: 'Lobster', cursive;
+        letter-spacing: 2px;
+        font-size: large;
+    }
+    
+    #h3 {  
+        margin-top: 100px;
+        margin-left: 70px;
+        font-family: 'Lobster', cursive;
+        letter-spacing: 2px;
+    }
+
+    .down_arrow {
+        width: 20px;
+        height: 20px;
+        margin-top: 25px;  
+        margin-left: 80px ;
+    }
+
+    .down_arrow:hover {
+        width: 22px;
+        height: 22px;
+        margin-top: 95px;
+        
+    }
+
+  }
+
+
+
+
+
+/* ABOUT ME */
+
+.about_h1 {
+    font-family: 'Lobster', cursive;
+    text-align: center;
+    margin-top: 50px;
+    
+}
+
+.aboutme_heading {
+        font-family: 'Lobster', cursive;
+        text-align: center;
+        margin-top: 250px;
+
+        
+    
+}
+
+
+
+
+#aboutme_h {
+    font-family: 'Lobster', cursive;
+    font-size: 40px;
+    color: rgb(130, 128, 7);
+    
+}
+
+.aboutme_pic1 {
+    
+    width: 350px;
+    margin-left: 270px; 
+    margin-top: 70px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(251, 213, 0, 0.999), 0 6px 20px 0 rgb(255, 245, 135);
+}
+
+.aboutme_pic2 {
+    
+    width: 350px;
+    margin-left: 870px; 
+    margin-top: -420px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(251, 213, 0, 0.999), 0 6px 20px 0 rgb(255, 245, 135);
+}
+
+
+.column {
+    display: flex;
+}
+
+
+.about_social1 {
+    width: 450px;
+    margin-top: 50px;
+    margin-left: 180px;
+    border-radius: 5%;
+    transition: transform .2s; /* Animation */
+    
+}
+
+.about_social1:hover {
+     transform: scale(1.05);
+     box-shadow: -5px -5px 30px 5px red, 5px 5px 30px 5px blue; 
+}
+
+.about_social2 {
+    width: 450px;
+    margin-top: 50px;
+    margin-left: 240px;
+    border-radius: 5%;
+    transition: transform .2s; /* Animation */  
+}
+
+.about_social2:hover {
+    transform: scale(1.05);
+    box-shadow: -5px -5px 30px 5px red, 5px 5px 30px 5px blue;
+     
+}
+
+.about_social3 {
+    width: 450px;
+    margin-top: 40px;
+    margin-left: 180px;
+    border-radius: 5%;
+    transition: transform .2s; /* Animation */
+}
+
+.about_social3:hover {
+    transform: scale(1.05);
+    box-shadow: -5px -5px 30px 5px red, 5px 5px 30px 5px blue; 
+    
+}
+
+.about_social4 {
+    width: 450px;
+    margin-top: 40px;
+    margin-left: 240px;
+    border-radius: 5%;
+    transition: transform .2s; /* Animation */
+}
+
+.about_social4:hover {
+    transform: scale(1.05); 
+    background-image: url();
+    box-shadow: -5px -5px 30px 5px red, 5px 5px 30px 5px blue;
+    
+}
+
+.aboutme_para {
+    display: flex;
+    margin-left: 120px;
+    margin-right: 120px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.up_arrow {
+    width: 35px;
+    margin-top: 10px;
+    margin-right: 0px;
+    margin-bottom: 50px;
+    transition: transform .2s; /* Animation */
+    float: right;
+}
+
+
+.up_arrow:hover {
+    transform: scale(1.5);
+    
+}
+
+.active_aboutme {
+    text-shadow: 0 0 3px #f23b3b, 0 0 5px #0000FF;
+}
+.active_home {
+    text-shadow: 0 0 3px #f23b3b, 0 0 5px #0000FF;
+}
+.active_myworks {
+    text-shadow: 0 0 3px #f23b3b, 0 0 5px #0000FF;
+}
+.active_contactme {
+    text-shadow: 0 0 3px #f23b3b, 0 0 5px #0000FF;
+}
+
+
+
+@media screen and (max-width: 480px) {
+
+    .about_h1 {
+        font-family: 'Lobster', cursive;
+        text-align: center;
+        margin-top: 30px;
+        font-size: x-large;
+        margin-left: 1px;
+    }
+
+    /* Three image containers (use 25% for four, and 50% for two, etc) */
+    .column {
+        float: left;
+        width: 33.33%;
+        padding: 5px;
+        margin-left: 25px;
+    
+  }
+  
+  /* Clear floats after image containers */
+  .row::after {
+        content: "";
+        clear: both;
+        display: table;
+  }
+
+    .aboutme_pic1 {
+        width: 120px;
+        margin-left: 10px;
+        margin-top: 30px;
+        border-radius: 10px;
+        box-shadow: 0 4px 8px 0 rgba(251, 213, 0, 0.999), 0 6px 20px 0 rgb(255, 245, 135);
+    }
+
+    .aboutme_pic2 {
+        width: 120px;
+        margin-left: 10px;
+        margin-top: 30px;
+        border-radius: 10px;
+        box-shadow: 0 4px 8px 0 rgba(251, 213, 0, 0.999), 0 6px 20px 0 rgb(255, 245, 135);
+    }
+
+    .aboutme_para {
+        font-size: 2.5vw;
+        margin-left: 0px;
+        margin-right: 0px;
+        font-family: 'Poppins', sans-serif;
+        text-align: center;
+    }
+    
+    #aboutme_h {
+        font-family: 'Lobster', cursive;
+        font-size: 30px;
+        color: rgb(130, 128, 7);
+        
+    }
+    
+    .about_social1 {
+        width: 250px;
+        margin-top: 50px;
+        margin-left: 10px;
+        border-radius: 5%;
+        transition: transform .2s; /* Animation */
+        
+    }
+
+    .about_social2 {
+        width: 250px;
+        margin-top: 50px;
+        margin-left: 70px;
+        border-radius: 5%;
+        transition: transform .2s; /* Animation */  
+    }
+
+    .about_social3 {
+        width: 250px;
+        margin-top: 50px;
+        margin-left: 10px;
+        border-radius: 5%;
+        transition: transform .2s; /* Animation */
+    }
+
+    .about_social4 {
+        width: 250px;
+        margin-top: 50px;
+        margin-left: 70px;
+        border-radius: 5%;
+        transition: transform .2s; /* Animation */
+    }
+
+    .up_arrow {
+        width: 25px;
+        margin-top: 30px;
+        margin-right: 20px;
+        transition: transform .2s; /* Animation */
+    }
+    
+    .rightside_arrow {
+        width: 25px;
+        float: right;
+        transition: transform .2s; /* Animation */
+        margin-right: 30px;
+        margin-bottom: 30px;
+        
+    }
+
+
+}
+
+.Myworks {
+    
+    font-family: 'Poppins', sans-serif;
+    margin-top: 50px;
+    font-size: 13px;
+}
+
+.amyworks {
+    color: #606041;
+}
+
+
+@media screen and (max-width: 480px) {
+
+    .Myworks {
+        margin-left: 0px;
+        font-size: 8px;
+    }
+
+    
+}
+
+.icons {
+    margin-left: 450px;
+    margin-top: 50px;
+}
+
+#ig, #fb, #twitter, #linkedin, #google, #youtube {
+    margin-left: 50px;
+    transition: transform .5s; /* Animation */
+}
+
+#ig:hover, #fb:hover, #twitter:hover, #linkedin:hover, #google:hover, #youtube:hover {
+    transform: scale(1.5);
+    text-shadow: 0 0 3px #f23b3b, 0 0 5px #0000FF;
+}
+
+#ig {
+    font-size: 48px; color: red;
+}
+
+#fb {
+    font-size: 48px; color: blue;
+}
+
+#twitter {
+    font-size: 48px; color: skyblue;
+}
+
+#google {
+    font-size: 48px; color: black;
+}
+
+#linkedin {
+    font-size: 48px; color: rgb(11, 120, 252);
+}
+
+#youtube {
+    font-size: 48px; color: red;
+}
+
+@media screen and (max-width: 480px) {
+
+
+.icons {
+    margin-left: 30px;
+    margin-top: 20px;
+    
+}
+
+#ig {
+    font-size: 28px; color: red;
+}
+
+#fb {
+    font-size: 28px; color: blue;
+}
+
+#twitter {
+    font-size: 28px; color: skyblue;
+}
+
+#google {
+    font-size: 28px; color: black;
+}
+
+#linkedin {
+    font-size: 28px; color: rgb(11, 120, 252);
+}
+
+#youtube {
+    font-size: 28px; color: red;
+}
+
+
+#ig, #fb, #twitter, #linkedin, #google, #youtube {
+    margin-left: 18px;
+    margin-top: 10px;
+    
+}
+
+
+}
+
+
+
